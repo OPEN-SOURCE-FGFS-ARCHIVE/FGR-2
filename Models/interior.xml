@@ -1,0 +1,940 @@
+<!-- A wrapper file for the FGR.2 3D model -->
+
+<PropertyList>
+
+<animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>300</max-m>
+    </animation>
+	
+	
+	<model>
+    <path>Aircraft/FGR-2/Models/levers.xml</path>
+    <offsets>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+
+ <!-- Front Cockpit-->
+ 
+ <!-- left side panel -->
+ <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Left/left.xml</path>
+    <offsets>
+      <x-m>-0.31</x-m>
+      <y-m>-0.02</y-m>
+      <z-m>-0.58</z-m>
+      <pitch-deg>6.7</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Left/left-rear.xml</path>
+    <offsets>
+      <x-m>1</x-m>
+      <y-m>-0.04</y-m>
+      <z-m>-0.6</z-m>
+      <pitch-deg>7</pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- right side panel -->
+ <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/right.xml</path>
+    <offsets>
+      <x-m>-0.31</x-m>
+      <y-m>0.02</y-m>
+      <z-m>-0.58</z-m>
+      <pitch-deg>6.7</pitch-deg>
+    </offsets>
+  </model>
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/right.xml</path>
+    <offsets>
+      <x-m>1</x-m>
+      <y-m>0.04</y-m>
+      <z-m>-0.6</z-m>
+      <pitch-deg>7</pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- main panel -->
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/sub-panel/sub-panel.xml</path>
+    <offsets>
+      <x-m> -5.898 </x-m>
+      <y-m> -0.09 </y-m>
+      <z-m> 0.793</z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg> 0 </pitch-deg>
+      <heading-deg> -23 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/sub-panel/cwp.xml</path>
+    <offsets>
+      <x-m> -5.883 </x-m>
+      <y-m> 0.08</y-m>
+      <z-m> 0.793</z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg> 0 </pitch-deg>
+      <heading-deg> 25 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/MagCompass/comp.xml</path>
+    <offsets>
+      <x-m> -6.0592 </x-m>
+      <y-m> 0.185 </y-m>
+      <z-m> 1.379</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.01</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1.65</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/AOA/aoa.xml</path>
+    <offsets>
+      <x-m> -6.22 </x-m>
+      <y-m> -0.09 </y-m>
+      <z-m> 1.3</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	
+  </model>
+  
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/nav-selector/nav-selector.xml</path>
+    <offsets>
+      <x-m> -6.175 </x-m>
+      <y-m> 0.115 </y-m>
+      <z-m> 0.838</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+ <model>
+    <path>Aircraft/FGR-2/Models/Instruments/hsi/A-10-HSI.xml</path>
+    <offsets>
+      <x-m> -6.166 </x-m>
+      <y-m> -0.005 </y-m>
+      <z-m> 0.901</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.3</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+  </model>  
+ 
+<!-- 
+ <model>
+    <path>Aircraft/FGR-2/Models/Instruments/radar2/Radar.xml</path>
+    <offsets>
+      <x-m> -6.135 </x-m>
+      <y-m> 0.005 </y-m>
+      <z-m> 1.177</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.05</y-offset>
+    <z-offset>1.05</z-offset>
+   </animation>
+  </overlay>
+  </model>
+-->
+
+<model>
+    <path>Aircraft/FGR-2/Models/Instruments/frontradar/radar.xml</path>
+    <offsets>
+      <x-m> -6.1225 </x-m>
+      <y-m> 0.00 </y-m>
+      <z-m> 1.177</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.85</y-offset>
+    <z-offset>0.85</z-offset>
+   </animation>
+  </overlay>
+  </model>
+
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/adi/adi.xml</path>
+    <offsets>
+      <x-m> -6.168 </x-m>
+      <y-m> -0.005 </y-m>
+      <z-m> 1.03</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.3</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/adi/adi.xml</path>
+    <offsets>
+      <x-m> -6.169 </x-m>
+      <y-m> 0.112 </y-m>
+      <z-m> 0.906</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.3</x-offset>
+    <y-offset>0.5</y-offset>
+    <z-offset>0.5</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   
+<model>
+    <path>Aircraft/FGR-2/Models/Instruments/ILS/ILS.xml</path>
+    <offsets>
+      <x-m> -6.166 </x-m>
+      <y-m> -0.133 </y-m>
+      <z-m> 0.98</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.3</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+  </overlay>
+  </model>
+
+
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/acc/accel.xml</path>
+    <offsets>
+      <x-m> -6.166 </x-m>
+      <y-m> -0.133 </y-m>
+      <z-m> 0.909</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/vsi/vsi-6kfpm.xml</path>
+    <offsets>
+      <x-m> -6.169 </x-m>
+      <y-m> 0.112 </y-m>
+      <z-m> 0.972</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.85</y-offset>
+    <z-offset>0.85</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -6.18 </x-m>
+      <y-m> 0.115 </y-m>
+      <z-m> 1.045</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.82</y-offset>
+    <z-offset>0.82</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+ 
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -6.173 </x-m>
+      <y-m> -0.125 </y-m>
+      <z-m> 1.048</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.82</y-offset>
+    <z-offset>0.82</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/clock/chronograph.xml</path>
+    <offsets>
+      <x-m> -6.1702 </x-m>
+      <y-m> -0.213 </y-m>
+      <z-m> 1.131</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.5</y-offset>
+    <z-offset>1.5</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/radar-alt/alt.xml</path>
+    <offsets>
+      <x-m> -6.173 </x-m>
+      <y-m> -0.215 </y-m>
+      <z-m> 1.055</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.82</y-offset>
+    <z-offset>0.82</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/missiles-ctrl/missiles-ctrl.xml</path>
+    <offsets>
+      <x-m> -6.173 </x-m>
+      <y-m> -0.233 </y-m>
+      <z-m> 0.945</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.82</y-offset>
+    <z-offset>0.82</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/weapons/weapons.xml</path>
+    <offsets>
+      <x-m> -6.175 </x-m>
+      <y-m> -0.195 </y-m>
+      <z-m> 0.842</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.78</y-offset>
+    <z-offset>0.78</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/FuelGauge/FuelGauge.xml</path>
+    <offsets>
+      <x-m> -6.173 </x-m>
+      <y-m> 0.2095 </y-m>
+      <z-m> 1.0815</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/ff/ff-LH.xml</path>
+    <offsets>
+      <x-m> -6.1725 </x-m>
+      <y-m> 0.195 </y-m>
+      <z-m> 1.02</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/ff/ff-RH.xml</path>
+    <offsets>
+      <x-m> -6.1725 </x-m>
+      <y-m> 0.257 </y-m>
+      <z-m> 1.02</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/rpm/rpm-LH.xml</path>
+    <offsets>
+      <x-m> -6.173 </x-m>
+      <y-m> 0.1935 </y-m>
+      <z-m> 0.9558</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/rpm/rpm-RH.xml</path>
+    <offsets>
+      <x-m> -6.173 </x-m>
+      <y-m> 0.2572 </y-m>
+      <z-m> 0.9558</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/tgt/tgt-LH.xml</path>
+    <offsets>
+      <x-m> -6.1755 </x-m>
+      <y-m> 0.1935 </y-m>
+      <z-m> 0.897</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/tgt/tgt-RH.xml</path>
+    <offsets>
+      <x-m> -6.1755 </x-m>
+       <y-m> 0.2579 </y-m>
+      <z-m> 0.897</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/nozzle-pos/noz-pos-LH.xml</path>
+    <offsets>
+      <x-m> -6.1788 </x-m>
+      <y-m> 0.1935 </y-m>
+      <z-m> 0.84</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/nozzle-pos/noz-pos-RH.xml</path>
+    <offsets>
+      <x-m> -6.1788 </x-m>
+      <y-m> 0.2584 </y-m>
+      <z-m> 0.84</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <!-- front cockpit  compositor lights -->
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Lights/RedDashLight.xml</path>
+    <offsets>
+     <x-m> -5.8 </x-m>
+      <y-m>0 </y-m>
+      <z-m> 1.045</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg></pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	
+  </model>
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Lights/RedDashLight.xml</path>
+    <offsets>
+     <x-m> -5.8 </x-m>
+      <y-m>0 </y-m>
+      <z-m> 1.045</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-10</pitch-deg>
+      <heading-deg> 100 </heading-deg>
+    </offsets>
+	
+  </model>
+  
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Lights/RedDashLight.xml</path>
+    <offsets>
+     <x-m> -5.8 </x-m>
+      <y-m>0 </y-m>
+      <z-m> 1.045</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-10</pitch-deg>
+      <heading-deg> -100 </heading-deg>
+    </offsets>
+	
+  </model>
+  
+  
+  <!-- Rear cockpit -->
+<model>
+    <path>Aircraft/FGR-2/Models/Instruments/rearradar/radar2.xml</path>
+    <offsets>
+     <x-m>-4.75</x-m>
+      <y-m>0 </y-m>
+      <z-m>1.09</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-45</pitch-deg>
+      <heading-deg>0</heading-deg>
+    </offsets>
+	
+  </model>
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/missiles-ctrl/missiles-ctrl.xml</path>
+    <offsets>
+      <x-m> -4.88 </x-m>
+      <y-m> -0.26 </y-m>
+      <z-m> 1.095</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-2</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.15</y-offset>
+    <z-offset>1.15</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/adi/adi.xml</path>
+    <offsets>
+      <x-m> -4.715 </x-m>
+      <y-m> -0.078 </y-m>
+      <z-m> 1.356</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-12</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.3</x-offset>
+    <y-offset>0.725</y-offset>
+    <z-offset>0.725</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/alt/alt.xml</path>
+    <offsets>
+     <x-m> -4.715 </x-m>
+      <y-m> -0.179 </y-m>
+      <z-m> 1.351</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-12</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.97</y-offset>
+    <z-offset>0.97</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -4.715 </x-m>
+      <y-m> 0.02 </y-m>
+      <z-m> 1.354</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-12</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.97</y-offset>
+    <z-offset>0.97</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/rwr/rwr.xml</path>
+    <offsets>
+      <x-m> -4.705 </x-m>
+      <y-m> 0.12 </y-m>
+      <z-m> 1.354</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-12</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="900">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/vsi/vsi-6kfpm.xml</path>
+    <offsets>
+        <x-m> -4.705 </x-m>
+      <y-m> 0.213 </y-m>
+      <z-m> 1.354</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-12</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.13</y-offset>
+    <z-offset>1.13</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/TACAN/tacan.xml</path>
+    <offsets>
+      <x-m> -4.743 </x-m>
+      <y-m> 0.061 </y-m>
+      <z-m> 1.476</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>80</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	 <overlay>
+		 <animation n="900">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1.27</x-offset>
+    <y-offset>1.2</y-offset>
+    <z-offset>1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+   <model>
+    <path>Aircraft/FGR-2/Models/Instruments/MagCompass/comp.xml</path>
+    <offsets>
+      <x-m> -4.62 </x-m>
+      <y-m> 0.003 </y-m>
+      <z-m> 1.665</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.01</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.65</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <!-- rear cockpit  compositor lights -->
+  
+   <model>
+   <name>rearred1</name>
+    <path>Aircraft/FGR-2/Models/Lights/RedDashLight.xml</path>
+    <offsets>
+     <x-m> -4.3 </x-m>
+      <y-m>0 </y-m>
+      <z-m> 1.5</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-10</pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+	
+  </model>
+  
+   <model>
+   <name>rearred2</name>
+    <path>Aircraft/FGR-2/Models/Lights/RedDashLight.xml</path>
+    <offsets>
+     <x-m> -4.2 </x-m>
+      <y-m>-0.5 </y-m>
+      <z-m> 1.3</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-90</pitch-deg>
+      <heading-deg>0 </heading-deg>
+    </offsets>
+	
+  </model>
+  
+  
+   <model>
+   
+    <path>Aircraft/FGR-2/Models/Lights/RedDashLight.xml</path>
+    <offsets>
+     <x-m> -4.2 </x-m>
+      <y-m>0.5 </y-m>
+      <z-m> 1.3</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>-90</pitch-deg>
+      <heading-deg>0 </heading-deg>
+    </offsets>
+	
+  </model>
+  
+  
+  
+ 
+</PropertyList>
+ 

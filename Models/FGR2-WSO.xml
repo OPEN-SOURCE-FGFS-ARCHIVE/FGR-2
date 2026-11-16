@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>null.ac</path>
+	
+	<!-- Pilot stuff -->
+
+  <animation>
+        <type>select</type>
+         <object-name>Pilot</object-name>
+  <object-name>WSO</object-name>
+   <object-name>RearGlass</object-name>
+       <object-name>FwdCanopyGlass</object-name>
+	    <object-name>windscreen-glass</object-name>
+		<condition>
+        <not>
+        <property>sim/current-view/internal</property>
+        </not>
+        </condition>
+    </animation> 
+  
+	
+	</PropertyList>

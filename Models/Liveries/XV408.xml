@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+       <name type="string">XV408</name>
+         <MidFuselageSides>Liveries/XV408/F2L_T.jpg</MidFuselageSides>
+         <FrontFuselageSides>Liveries/XV408/F1L_T.jpg</FrontFuselageSides>
+         <MidFuselageTop>Liveries/XV408/F2B_T.jpg</MidFuselageTop>
+         <FrontFuselageTop>Liveries/XV408/F1B_T.jpg</FrontFuselageTop>
+         <RearFuselage>Liveries/XV408/F3L_T.jpg</RearFuselage>
+         <VertStabRoot>Liveries/XV408/f3b_T.jpg</VertStabRoot>
+         <PortVertStab>Liveries/XV408/TEX1_T.jpg</PortVertStab>
+         <StarVertStab>Liveries/XV408/TEX3_T.jpg</StarVertStab>
+         <PortWingTop>Liveries/XV408/LEFT WING_T.jpg</PortWingTop>
+         <StarWingTop>Liveries/XV408/RIGHT WING_T.jpg</StarWingTop>
+         <PortWingBottom>Liveries/XV408/LEFT WING BOTTOM_T.jpg</PortWingBottom>
+         <StarWingBottom>Liveries/XV408/RIGHT WING BOTTOM_T.jpg</StarWingBottom>
+         <Gears>Liveries/XV408/GEAR_T.jpg</Gears>
+         </livery>
+		  <fgr2>
+	   <hdr>false</hdr>
+		<als>true</als>
+		</fgr2>
+    </model>
+	<rendering>
+    <refl_correction type="string">-0.43</refl_correction>
+	<fresnel-factor>0.4</fresnel-factor>
+    </rendering>
+  </sim>
+
+</PropertyList>

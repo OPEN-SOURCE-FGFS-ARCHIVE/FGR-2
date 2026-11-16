@@ -1,0 +1,2466 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>radar2.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>compass-card</object-name>
+    <object-name>time-drum-1</object-name>
+    <object-name>time-drum-2</object-name>
+    <object-name>time-drum-3</object-name>
+    <object-name>range-drum-1</object-name>
+    <object-name>range-drum-2</object-name>
+    <object-name>range-drum-3</object-name>
+    <object-name>range-drum-4</object-name>
+    <object-name>compass-needle</object-name>
+    <object-name>steer-needle</object-name>
+    <object-name>radar-frame</object-name>
+    <object-name>handle</object-name>
+    <object-name>bkg</object-name>
+    <object-name>bkg-off</object-name>
+    <object-name>plots_s0</object-name>
+    <object-name>plots_s1</object-name>
+    <object-name>plots_s2</object-name>
+    <object-name>plots_s3</object-name>
+    <object-name>plots_s4</object-name>
+    <object-name>plots_s5</object-name>
+    <object-name>plots_s6</object-name>
+    <object-name>plots_s7</object-name>
+    <object-name>plots_s8</object-name>
+    <object-name>plots_s9</object-name>
+    <object-name>plots_s10</object-name>
+    <object-name>plots_s11</object-name>
+    <object-name>plots_s12</object-name>
+    <object-name>plots_s13</object-name>
+    <object-name>plots_s14</object-name>
+    <object-name>plots_s15</object-name>
+    <object-name>plots_s16</object-name>
+    <object-name>plots_s17</object-name>
+    <object-name>plots_s18</object-name>
+    <object-name>plots_s19</object-name>
+    <object-name>plots_s20</object-name>
+    <object-name>plots_s21</object-name>
+    <object-name>plots_s22</object-name>
+    <object-name>plots_s23</object-name>
+    <object-name>plots_s24</object-name>
+    <object-name>plots_s25</object-name>
+    <object-name>plots_s26</object-name>
+    <object-name>plots_s27</object-name>
+    <object-name>plots_s28</object-name>
+    <object-name>plots_s29</object-name>
+    <object-name>plots_s30</object-name>
+    <object-name>plots_s31</object-name>
+    <object-name>plots_s32</object-name>
+    <object-name>plots_s33</object-name>
+    <object-name>plots_s34</object-name>
+    <object-name>plots_s35</object-name>
+    <object-name>plots_s36</object-name>
+    <object-name>plots_s37</object-name>
+    <object-name>plots_s38</object-name>
+    <object-name>plots_s39</object-name>
+    <object-name>plots_s40</object-name>
+    <object-name>plots_s41</object-name>
+    <object-name>plots_s42</object-name>
+    <object-name>plots_s43</object-name>
+    <object-name>plots_s44</object-name>
+    <object-name>plots_s45</object-name>
+    <object-name>plots_s46</object-name>
+    <object-name>plots_s47</object-name>
+    <object-name>plots_s48</object-name>
+    <object-name>plots_s49</object-name>
+    <object-name>plots_s50</object-name>
+    <object-name>plots_s51</object-name>
+    <object-name>plots_s52</object-name>
+    <object-name>plots_s53</object-name>
+    <object-name>plots_s54</object-name>
+    <object-name>plots_s55</object-name>
+    <object-name>plots_s56</object-name>
+    <object-name>plots_s57</object-name>
+    <object-name>plots_s58</object-name>
+    <object-name>plots_s59</object-name>
+    <object-name>plots_s60</object-name>
+    <object-name>plots_s61</object-name>
+    <object-name>plots_s62</object-name>
+    <object-name>plots_s63</object-name>
+    <object-name>plots_s64</object-name>
+    <object-name>plots_s65</object-name>
+    <object-name>plots_s66</object-name>
+    <object-name>plots_s67</object-name>
+    <object-name>plots_s68</object-name>
+    <object-name>plots_s69</object-name>
+    <object-name>plots_s70</object-name>
+    <object-name>plots_s71</object-name>
+    <object-name>plots_s72</object-name>
+    <object-name>plots_s73</object-name>
+    <object-name>plots_s74</object-name>
+    <object-name>plots_s75</object-name>
+    <object-name>plots_s76</object-name>
+    <object-name>plots_s77</object-name>
+    <object-name>plots_s78</object-name>
+    <object-name>plots_s79</object-name>
+    <object-name>plots_s80</object-name>
+    <object-name>plots_s81</object-name>
+    <object-name>plots_s82</object-name>
+    <object-name>plots_s83</object-name>
+    <object-name>plots_s84</object-name>
+    <object-name>plots_s85</object-name>
+    <object-name>plots_s86</object-name>
+    <object-name>plots_s87</object-name>
+    <object-name>plots_s88</object-name>
+    <object-name>plots_s89</object-name>
+    <object-name>plots_s90</object-name>
+    <object-name>plots_s91</object-name>
+    <object-name>plots_s92</object-name>
+    <object-name>plots_s93</object-name>
+    <object-name>plots_s94</object-name>
+    <object-name>plots_s95</object-name>
+    <object-name>plots_s96</object-name>
+    <object-name>plots_s97</object-name>
+    <object-name>plots_s98</object-name>
+    <object-name>plots_s99</object-name>
+
+    <object-name>vitre</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>fond</object-name>
+    <object-name>compass-card</object-name>
+    <object-name>time-drum-1</object-name>
+    <object-name>time-drum-2</object-name>
+    <object-name>time-drum-3</object-name>
+    <object-name>range-drum-1</object-name>
+    <object-name>range-drum-2</object-name>
+    <object-name>range-drum-3</object-name>
+    <object-name>range-drum-4</object-name>
+    <object-name>compass-needle</object-name>
+    <object-name>steer-needle</object-name>
+    <object-name>radar-frame</object-name>
+    <object-name>handle</object-name>
+    <object-name>bkg</object-name>
+    <object-name>bkg-off</object-name>
+    <object-name>plots_s0</object-name>
+    <object-name>plots_s1</object-name>
+    <object-name>plots_s2</object-name>
+    <object-name>plots_s3</object-name>
+    <object-name>plots_s4</object-name>
+    <object-name>plots_s5</object-name>
+    <object-name>plots_s6</object-name>
+    <object-name>plots_s7</object-name>
+    <object-name>plots_s8</object-name>
+    <object-name>plots_s9</object-name>
+    <object-name>plots_s10</object-name>
+    <object-name>plots_s11</object-name>
+    <object-name>plots_s12</object-name>
+    <object-name>plots_s13</object-name>
+    <object-name>plots_s14</object-name>
+    <object-name>plots_s15</object-name>
+    <object-name>plots_s16</object-name>
+    <object-name>plots_s17</object-name>
+    <object-name>plots_s18</object-name>
+    <object-name>plots_s19</object-name>
+    <object-name>plots_s20</object-name>
+    <object-name>plots_s21</object-name>
+    <object-name>plots_s22</object-name>
+    <object-name>plots_s23</object-name>
+    <object-name>plots_s24</object-name>
+    <object-name>plots_s25</object-name>
+    <object-name>plots_s26</object-name>
+    <object-name>plots_s27</object-name>
+    <object-name>plots_s28</object-name>
+    <object-name>plots_s29</object-name>
+    <object-name>plots_s30</object-name>
+    <object-name>plots_s31</object-name>
+    <object-name>plots_s32</object-name>
+    <object-name>plots_s33</object-name>
+    <object-name>plots_s34</object-name>
+    <object-name>plots_s35</object-name>
+    <object-name>plots_s36</object-name>
+    <object-name>plots_s37</object-name>
+    <object-name>plots_s38</object-name>
+    <object-name>plots_s39</object-name>
+    <object-name>plots_s40</object-name>
+    <object-name>plots_s41</object-name>
+    <object-name>plots_s42</object-name>
+    <object-name>plots_s43</object-name>
+    <object-name>plots_s44</object-name>
+    <object-name>plots_s45</object-name>
+    <object-name>plots_s46</object-name>
+    <object-name>plots_s47</object-name>
+    <object-name>plots_s48</object-name>
+    <object-name>plots_s49</object-name>
+    <object-name>plots_s50</object-name>
+    <object-name>plots_s51</object-name>
+    <object-name>plots_s52</object-name>
+    <object-name>plots_s53</object-name>
+    <object-name>plots_s54</object-name>
+    <object-name>plots_s55</object-name>
+    <object-name>plots_s56</object-name>
+    <object-name>plots_s57</object-name>
+    <object-name>plots_s58</object-name>
+    <object-name>plots_s59</object-name>
+    <object-name>plots_s60</object-name>
+    <object-name>plots_s61</object-name>
+    <object-name>plots_s62</object-name>
+    <object-name>plots_s63</object-name>
+    <object-name>plots_s64</object-name>
+    <object-name>plots_s65</object-name>
+    <object-name>plots_s66</object-name>
+    <object-name>plots_s67</object-name>
+    <object-name>plots_s68</object-name>
+    <object-name>plots_s69</object-name>
+    <object-name>plots_s70</object-name>
+    <object-name>plots_s71</object-name>
+    <object-name>plots_s72</object-name>
+    <object-name>plots_s73</object-name>
+    <object-name>plots_s74</object-name>
+    <object-name>plots_s75</object-name>
+    <object-name>plots_s76</object-name>
+    <object-name>plots_s77</object-name>
+    <object-name>plots_s78</object-name>
+    <object-name>plots_s79</object-name>
+    <object-name>plots_s80</object-name>
+    <object-name>plots_s81</object-name>
+    <object-name>plots_s82</object-name>
+    <object-name>plots_s83</object-name>
+    <object-name>plots_s84</object-name>
+    <object-name>plots_s85</object-name>
+    <object-name>plots_s86</object-name>
+    <object-name>plots_s87</object-name>
+    <object-name>plots_s88</object-name>
+    <object-name>plots_s89</object-name>
+    <object-name>plots_s90</object-name>
+    <object-name>plots_s91</object-name>
+    <object-name>plots_s92</object-name>
+    <object-name>plots_s93</object-name>
+    <object-name>plots_s94</object-name>
+    <object-name>plots_s95</object-name>
+    <object-name>plots_s96</object-name>
+    <object-name>plots_s97</object-name>
+    <object-name>plots_s98</object-name>
+    <object-name>plots_s99</object-name>
+    <object-name>vitre</object-name>
+  </animation>
+
+  <!-- working for Compositor -->
+  <effect>
+    <inherits-from>glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+
+  <animation>
+    <type>material</type>
+    <object-name>compass-card</object-name>
+    <object-name>time-drum-1</object-name>
+    <object-name>time-drum-2</object-name>
+    <object-name>time-drum-3</object-name>
+    <object-name>range-drum-1</object-name>
+    <object-name>range-drum-2</object-name>
+    <object-name>range-drum-3</object-name>
+    <object-name>range-drum-4</object-name>
+    <object-name>compass-needle</object-name>
+    <object-name>steer-needle</object-name>
+    <object-name>radar-frame</object-name>
+    <object-name>handle</object-name>
+    <object-name>bkg</object-name>
+    <object-name>bkg-off</object-name>
+   <equals>
+      <property>engines/engine/running</property>
+	  <value>true</value>
+	  </equals>
+    <emission>
+      <factor-prop>controls/lighting/instruments-norm</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.40 </green>
+      <blue>  0.30 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <name>plots</name>
+    <object-name>plots_s0</object-name>
+    <object-name>plots_s1</object-name>
+    <object-name>plots_s2</object-name>
+    <object-name>plots_s3</object-name>
+    <object-name>plots_s4</object-name>
+    <object-name>plots_s5</object-name>
+    <object-name>plots_s6</object-name>
+    <object-name>plots_s7</object-name>
+    <object-name>plots_s8</object-name>
+    <object-name>plots_s9</object-name>
+    <object-name>plots_s10</object-name>
+    <object-name>plots_s11</object-name>
+    <object-name>plots_s12</object-name>
+    <object-name>plots_s13</object-name>
+    <object-name>plots_s14</object-name>
+    <object-name>plots_s15</object-name>
+    <object-name>plots_s16</object-name>
+    <object-name>plots_s17</object-name>
+    <object-name>plots_s18</object-name>
+    <object-name>plots_s19</object-name>
+    <object-name>plots_s20</object-name>
+    <object-name>plots_s21</object-name>
+    <object-name>plots_s22</object-name>
+    <object-name>plots_s23</object-name>
+    <object-name>plots_s24</object-name>
+    <object-name>plots_s25</object-name>
+    <object-name>plots_s26</object-name>
+    <object-name>plots_s27</object-name>
+    <object-name>plots_s28</object-name>
+    <object-name>plots_s29</object-name>
+    <object-name>plots_s30</object-name>
+    <object-name>plots_s31</object-name>
+    <object-name>plots_s32</object-name>
+    <object-name>plots_s33</object-name>
+    <object-name>plots_s34</object-name>
+    <object-name>plots_s35</object-name>
+    <object-name>plots_s36</object-name>
+    <object-name>plots_s37</object-name>
+    <object-name>plots_s38</object-name>
+    <object-name>plots_s39</object-name>
+    <object-name>plots_s40</object-name>
+    <object-name>plots_s41</object-name>
+    <object-name>plots_s42</object-name>
+    <object-name>plots_s43</object-name>
+    <object-name>plots_s44</object-name>
+    <object-name>plots_s45</object-name>
+    <object-name>plots_s46</object-name>
+    <object-name>plots_s47</object-name>
+    <object-name>plots_s48</object-name>
+    <object-name>plots_s49</object-name>
+    <object-name>plots_s50</object-name>
+    <object-name>plots_s51</object-name>
+    <object-name>plots_s52</object-name>
+    <object-name>plots_s53</object-name>
+    <object-name>plots_s54</object-name>
+    <object-name>plots_s55</object-name>
+    <object-name>plots_s56</object-name>
+    <object-name>plots_s57</object-name>
+    <object-name>plots_s58</object-name>
+    <object-name>plots_s59</object-name>
+    <object-name>plots_s60</object-name>
+    <object-name>plots_s61</object-name>
+    <object-name>plots_s62</object-name>
+    <object-name>plots_s63</object-name>
+    <object-name>plots_s64</object-name>
+    <object-name>plots_s65</object-name>
+    <object-name>plots_s66</object-name>
+    <object-name>plots_s67</object-name>
+    <object-name>plots_s68</object-name>
+    <object-name>plots_s69</object-name>
+    <object-name>plots_s70</object-name>
+    <object-name>plots_s71</object-name>
+    <object-name>plots_s72</object-name>
+    <object-name>plots_s73</object-name>
+    <object-name>plots_s74</object-name>
+    <object-name>plots_s75</object-name>
+    <object-name>plots_s76</object-name>
+    <object-name>plots_s77</object-name>
+    <object-name>plots_s78</object-name>
+    <object-name>plots_s79</object-name>
+    <object-name>plots_s80</object-name>
+    <object-name>plots_s81</object-name>
+    <object-name>plots_s82</object-name>
+    <object-name>plots_s83</object-name>
+    <object-name>plots_s84</object-name>
+    <object-name>plots_s85</object-name>
+    <object-name>plots_s86</object-name>
+    <object-name>plots_s87</object-name>
+    <object-name>plots_s88</object-name>
+    <object-name>plots_s89</object-name>
+    <object-name>plots_s90</object-name>
+    <object-name>plots_s91</object-name>
+    <object-name>plots_s92</object-name>
+    <object-name>plots_s93</object-name>
+    <object-name>plots_s94</object-name>
+    <object-name>plots_s95</object-name>
+    <object-name>plots_s96</object-name>
+    <object-name>plots_s97</object-name>
+    <object-name>plots_s98</object-name>
+    <object-name>plots_s99</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>plots</object-name>
+   <equals>
+      <property>engines/engine/running</property>
+	  <value>true</value>
+	  </equals>
+    <emission>
+      <red>   2 </red>
+      <green> 2 </green>
+      <blue>  2 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>compass-card</object-name>
+    <property>orientation/heading-magnetic-deg</property>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots</object-name>
+    <condition>
+      <and>
+        <equals>
+          <property>sim/model/controls/RADAR/off-stdby-on</property>
+          <value>2</value>
+        </equals>
+        <not>
+          <property>sim/model/instrumentation/RADAR/plots-out-of-range</property>
+        </not>
+      </and>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>bkg-off</object-name>
+    <condition>
+      <equals>
+        <property>sim/model/controls/RADAR/off-stdby-on</property>
+        <value>0</value>
+      </equals>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>radar-frame</object-name>
+    <condition>
+      <greater-than>
+        <property>sim/model/controls/RADAR/off-stdby-on</property>
+        <value>0</value>
+      </greater-than>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots</object-name>
+    <property>sim/model/instrumentation/RADAR/v-deviation</property>
+    <axis>
+      <x>  0 </x>
+      <y>  0 </y>
+      <z> -1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots</object-name>
+    <property>sim/model/instrumentation/RADAR/h-deviation</property>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>plots</object-name>
+    <property>orientation/pitch-deg</property>
+    <!--
+    <center>
+      <x-m>  0.0000 </x-m>
+      <y-m> -0.0435 </y-m>
+      <z-m>  0.0000 </z-m>
+    </center>
+    -->
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>select</type>
+    <object-name>plots_s0</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[0]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s1</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[1]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s2</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[2]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s3</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[3]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s4</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[4]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s5</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[5]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s6</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[6]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s7</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[7]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s8</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[8]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s9</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[9]/visible</property>
+    </condition>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>select</type>
+    <object-name>plots_s10</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[10]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s11</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[11]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s12</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[12]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s13</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[13]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s14</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[14]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s15</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[15]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s16</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[16]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s17</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[17]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s18</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[18]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s19</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[19]/visible</property>
+    </condition>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>select</type>
+    <object-name>plots_s20</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[20]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s21</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[21]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s22</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[22]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s23</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[23]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s24</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[24]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s25</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[25]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s26</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[26]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s27</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[27]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s28</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[28]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s29</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[29]/visible</property>
+    </condition>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>select</type>
+    <object-name>plots_s30</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[30]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s31</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[31]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s32</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[32]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s33</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[33]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s34</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[34]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s35</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[35]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s36</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[36]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s37</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[37]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s38</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[38]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s39</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[39]/visible</property>
+    </condition>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>select</type>
+    <object-name>plots_s40</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[40]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s41</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[41]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s42</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[42]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s43</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[43]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s44</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[44]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s45</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[45]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s46</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[46]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s47</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[47]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s48</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[48]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s49</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[49]/visible</property>
+    </condition>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>select</type>
+    <object-name>plots_s50</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[50]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s51</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[51]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s52</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[52]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s53</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[53]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s54</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[54]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s55</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[55]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s56</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[56]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s57</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[57]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s58</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[58]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s59</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[59]/visible</property>
+    </condition>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>select</type>
+    <object-name>plots_s60</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[60]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s61</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[61]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s62</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[62]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s63</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[63]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s64</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[64]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s65</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[65]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s66</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[66]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s67</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[67]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s68</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[68]/visible</property>
+    </condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>plots_s69</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[69]/visible</property>
+    </condition>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>select</type>
+    <object-name>plots_s70</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[70]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s71</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[71]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s72</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[72]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s73</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[73]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s74</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[74]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s75</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[75]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s76</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[76]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s77</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[77]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s78</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[78]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s79</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[79]/visible</property>
+    </condition>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>select</type>
+    <object-name>plots_s80</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[80]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s81</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[81]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s82</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[82]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s83</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[83]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s84</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[84]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s85</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[85]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s86</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[86]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s87</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[87]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s88</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[88]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s89</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[89]/visible</property>
+    </condition>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>select</type>
+    <object-name>plots_s90</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[90]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s91</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[91]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s92</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[92]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s93</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[93]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s94</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[94]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s95</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[95]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s96</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[96]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s97</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[97]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s98</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[98]/visible</property>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>plots_s99</object-name>
+    <condition>
+      <property>sim/model/instrumentation/RADAR/s[99]/visible</property>
+    </condition>
+  </animation>
+
+  <!-- ********************************************************************* -->
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s0</object-name>
+    <property>sim/model/instrumentation/RADAR/s[0]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s1</object-name>
+    <property>sim/model/instrumentation/RADAR/s[1]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s2</object-name>
+    <property>sim/model/instrumentation/RADAR/s[2]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s3</object-name>
+    <property>sim/model/instrumentation/RADAR/s[3]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s4</object-name>
+    <property>sim/model/instrumentation/RADAR/s[4]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s5</object-name>
+    <property>sim/model/instrumentation/RADAR/s[5]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s6</object-name>
+    <property>sim/model/instrumentation/RADAR/s[6]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s7</object-name>
+    <property>sim/model/instrumentation/RADAR/s[7]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s8</object-name>
+    <property>sim/model/instrumentation/RADAR/s[8]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s9</object-name>
+    <property>sim/model/instrumentation/RADAR/s[9]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s10</object-name>
+    <property>sim/model/instrumentation/RADAR/s[10]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s11</object-name>
+    <property>sim/model/instrumentation/RADAR/s[11]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s12</object-name>
+    <property>sim/model/instrumentation/RADAR/s[12]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s13</object-name>
+    <property>sim/model/instrumentation/RADAR/s[13]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s14</object-name>
+    <property>sim/model/instrumentation/RADAR/s[14]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s15</object-name>
+    <property>sim/model/instrumentation/RADAR/s[15]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s16</object-name>
+    <property>sim/model/instrumentation/RADAR/s[16]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s17</object-name>
+    <property>sim/model/instrumentation/RADAR/s[17]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s18</object-name>
+    <property>sim/model/instrumentation/RADAR/s[18]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s19</object-name>
+    <property>sim/model/instrumentation/RADAR/s[19]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s20</object-name>
+    <property>sim/model/instrumentation/RADAR/s[20]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s21</object-name>
+    <property>sim/model/instrumentation/RADAR/s[21]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s22</object-name>
+    <property>sim/model/instrumentation/RADAR/s[22]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s23</object-name>
+    <property>sim/model/instrumentation/RADAR/s[23]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s24</object-name>
+    <property>sim/model/instrumentation/RADAR/s[24]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s25</object-name>
+    <property>sim/model/instrumentation/RADAR/s[25]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s26</object-name>
+    <property>sim/model/instrumentation/RADAR/s[26]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s27</object-name>
+    <property>sim/model/instrumentation/RADAR/s[27]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s28</object-name>
+    <property>sim/model/instrumentation/RADAR/s[28]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s29</object-name>
+    <property>sim/model/instrumentation/RADAR/s[29]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s30</object-name>
+    <property>sim/model/instrumentation/RADAR/s[30]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s31</object-name>
+    <property>sim/model/instrumentation/RADAR/s[31]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s32</object-name>
+    <property>sim/model/instrumentation/RADAR/s[32]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s33</object-name>
+    <property>sim/model/instrumentation/RADAR/s[33]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s34</object-name>
+    <property>sim/model/instrumentation/RADAR/s[34]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s35</object-name>
+    <property>sim/model/instrumentation/RADAR/s[35]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s36</object-name>
+    <property>sim/model/instrumentation/RADAR/s[36]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s37</object-name>
+    <property>sim/model/instrumentation/RADAR/s[37]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s38</object-name>
+    <property>sim/model/instrumentation/RADAR/s[38]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s39</object-name>
+    <property>sim/model/instrumentation/RADAR/s[39]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s40</object-name>
+    <property>sim/model/instrumentation/RADAR/s[40]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s41</object-name>
+    <property>sim/model/instrumentation/RADAR/s[41]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s42</object-name>
+    <property>sim/model/instrumentation/RADAR/s[42]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s43</object-name>
+    <property>sim/model/instrumentation/RADAR/s[43]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s44</object-name>
+    <property>sim/model/instrumentation/RADAR/s[44]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s45</object-name>
+    <property>sim/model/instrumentation/RADAR/s[45]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s46</object-name>
+    <property>sim/model/instrumentation/RADAR/s[46]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s47</object-name>
+    <property>sim/model/instrumentation/RADAR/s[47]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s48</object-name>
+    <property>sim/model/instrumentation/RADAR/s[48]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s49</object-name>
+    <property>sim/model/instrumentation/RADAR/s[49]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s50</object-name>
+    <property>sim/model/instrumentation/RADAR/s[50]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s51</object-name>
+    <property>sim/model/instrumentation/RADAR/s[51]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s52</object-name>
+    <property>sim/model/instrumentation/RADAR/s[52]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s53</object-name>
+    <property>sim/model/instrumentation/RADAR/s[53]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s54</object-name>
+    <property>sim/model/instrumentation/RADAR/s[54]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s55</object-name>
+    <property>sim/model/instrumentation/RADAR/s[55]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s56</object-name>
+    <property>sim/model/instrumentation/RADAR/s[56]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s57</object-name>
+    <property>sim/model/instrumentation/RADAR/s[57]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s58</object-name>
+    <property>sim/model/instrumentation/RADAR/s[58]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s59</object-name>
+    <property>sim/model/instrumentation/RADAR/s[59]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s60</object-name>
+    <property>sim/model/instrumentation/RADAR/s[60]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s61</object-name>
+    <property>sim/model/instrumentation/RADAR/s[61]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s62</object-name>
+    <property>sim/model/instrumentation/RADAR/s[62]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s63</object-name>
+    <property>sim/model/instrumentation/RADAR/s[63]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s64</object-name>
+    <property>sim/model/instrumentation/RADAR/s[64]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s65</object-name>
+    <property>sim/model/instrumentation/RADAR/s[65]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s66</object-name>
+    <property>sim/model/instrumentation/RADAR/s[66]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s67</object-name>
+    <property>sim/model/instrumentation/RADAR/s[67]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s68</object-name>
+    <property>sim/model/instrumentation/RADAR/s[68]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s69</object-name>
+    <property>sim/model/instrumentation/RADAR/s[69]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s70</object-name>
+    <property>sim/model/instrumentation/RADAR/s[70]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s71</object-name>
+    <property>sim/model/instrumentation/RADAR/s[71]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s72</object-name>
+    <property>sim/model/instrumentation/RADAR/s[72]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s73</object-name>
+    <property>sim/model/instrumentation/RADAR/s[73]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s74</object-name>
+    <property>sim/model/instrumentation/RADAR/s[74]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s75</object-name>
+    <property>sim/model/instrumentation/RADAR/s[75]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s76</object-name>
+    <property>sim/model/instrumentation/RADAR/s[76]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s77</object-name>
+    <property>sim/model/instrumentation/RADAR/s[77]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s78</object-name>
+    <property>sim/model/instrumentation/RADAR/s[78]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s79</object-name>
+    <property>sim/model/instrumentation/RADAR/s[79]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s80</object-name>
+    <property>sim/model/instrumentation/RADAR/s[80]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s81</object-name>
+    <property>sim/model/instrumentation/RADAR/s[81]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s82</object-name>
+    <property>sim/model/instrumentation/RADAR/s[82]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s83</object-name>
+    <property>sim/model/instrumentation/RADAR/s[83]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s84</object-name>
+    <property>sim/model/instrumentation/RADAR/s[84]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s85</object-name>
+    <property>sim/model/instrumentation/RADAR/s[85]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s86</object-name>
+    <property>sim/model/instrumentation/RADAR/s[86]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s87</object-name>
+    <property>sim/model/instrumentation/RADAR/s[87]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s88</object-name>
+    <property>sim/model/instrumentation/RADAR/s[88]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s89</object-name>
+    <property>sim/model/instrumentation/RADAR/s[89]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- -->
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s90</object-name>
+    <property>sim/model/instrumentation/RADAR/s[90]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s91</object-name>
+    <property>sim/model/instrumentation/RADAR/s[91]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s92</object-name>
+    <property>sim/model/instrumentation/RADAR/s[92]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s93</object-name>
+    <property>sim/model/instrumentation/RADAR/s[93]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s94</object-name>
+    <property>sim/model/instrumentation/RADAR/s[94]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s95</object-name>
+    <property>sim/model/instrumentation/RADAR/s[95]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s96</object-name>
+    <property>sim/model/instrumentation/RADAR/s[96]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s97</object-name>
+    <property>sim/model/instrumentation/RADAR/s[97]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s98</object-name>
+    <property>sim/model/instrumentation/RADAR/s[98]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>plots_s99</object-name>
+    <property>sim/model/instrumentation/RADAR/s[99]/elevation_m</property>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- ********************************************************************* -->
+  <animation>
+    <type>textranslate</type>
+    <object-name>time-drum-1</object-name>
+    <property>instrumentation/tacan/indicated-distance-nm</property>
+    <factor>0.1</factor>
+    <offset>-1</offset>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>time-drum-2</object-name>
+    <property>instrumentation/tacan/indicated-distance-nm</property>
+    <factor>0.01</factor>
+    <offset>-10</offset>
+    <step>10</step>
+    <scroll>0.5</scroll>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>time-drum-3</object-name>
+    <property>instrumentation/tacan/indicated-distance-nm</property>
+    <factor>0.001</factor>
+    <offset>-100</offset>
+    <step>100</step>
+    <scroll>0.5</scroll>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <!-- ********************************************************************* -->
+  <animation>
+    <type>textranslate</type>
+    <object-name>range-drum-1</object-name>
+    <property>sim/model/controls/VDI/range</property>
+    <factor>0.1</factor>
+    <offset>-1</offset>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>range-drum-2</object-name>
+    <property>sim/model/controls/VDI/range</property>
+    <factor>0.01</factor>
+    <offset>-10</offset>
+    <step>10</step>
+    <scroll>0.5</scroll>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>range-drum-3</object-name>
+    <property>sim/model/controls/VDI/range</property>
+    <factor>0.001</factor>
+    <offset>-100</offset>
+    <step>100</step>
+    <scroll>0.5</scroll>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>range-drum-4</object-name>
+    <property>sim/model/controls/VDI/range</property>
+    <factor>0.0001</factor>
+    <offset>-1000</offset>
+    <step>1000</step>
+    <scroll>0.5</scroll>
+    <axis>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>

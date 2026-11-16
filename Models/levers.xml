@@ -1,0 +1,100 @@
+<!-- A wrapper file for the FGR.2 3D model -->
+
+<PropertyList>
+
+<animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>300</max-m>
+    </animation>
+	
+	<path>levers.ac</path>
+	<!-- Gear lever animations -->
+ 
+ 
+  
+   <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>gearlever</object-name>
+	
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>property-toggle</command>
+        <property>controls/gear/gear-down</property>
+      </binding>
+    <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/click</property>
+      </binding>
+    </action>
+  </animation>
+
+<animation>
+ <type>rotate</type>
+  <object-name>gearlever</object-name>
+	
+  <property>controls/gear/gear-down</property>
+  <factor>15</factor>
+  <offset-deg>-20</offset-deg>
+  <center>
+  <x-m> -6.175 </x-m>
+  <y-m> -0.33 </y-m>
+  <z-m> 0.915 </z-m>
+  </center>
+  <axis>
+  <x> 0 </x>
+  <y> 1 </y>
+  <z> 0 </z>
+  </axis>
+  </animation>
+  
+  <!-- Hook  lever animation -->
+   <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>hooklever</object-name>
+	
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>property-toggle</command>
+        <property>controls/gear/tailhook</property>
+      </binding>
+    <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/click</property>
+      </binding>
+    </action>
+  </animation>
+
+<animation>
+ <type>rotate</type>
+  <object-name>hooklever</object-name>
+	
+  <property>controls/gear/tailhook</property>
+  <factor>-9</factor>
+  <offset-deg>0</offset-deg>
+  <center>
+  <x-m> -6.25 </x-m>
+  <y-m> 0.34 </y-m>
+  <z-m> 0.92 </z-m>
+  </center>
+  <axis>
+  <x> 0 </x>
+  <y> -1 </y>
+  <z> 0 </z>
+  </axis>
+  </animation>
+	
+	
+
+ 
+ 
+
+ 
+</PropertyList>
+ 

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+
+
+
+<!-- GEN  -->
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/gen/gen.xml</path>
+    <offsets>
+      <x-m> -5.810 </x-m>
+      <y-m> 0.362 </y-m>
+      <z-m> 0.613</z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- TACAN  -->
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/tacan/tacan.xml</path>
+    <offsets>
+      <x-m> -5.662 </x-m>
+      <y-m> 0.362 </y-m>
+      <z-m> 0.612</z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- IFF CONTRL -->
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/IFF_cntrl/IFF_cntrl.xml</path>
+    <offsets>
+      <x-m> -5.568 </x-m>
+      <y-m> 0.362 </y-m>
+      <z-m> 0.613</z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- IFF -->
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/IFF/IFF.xml</path>
+    <offsets>
+      <x-m> -5.469 </x-m>
+      <y-m> 0.362 </y-m>
+      <z-m> 0.613</z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- COMPASS  -->
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/compass/compass.xml</path>
+    <offsets>
+      <x-m> -5.414 </x-m>
+      <y-m> 0.427 </y-m>
+      <z-m> 0.628</z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- SPACER  -->
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/spacer/spacer2.xml</path>
+    <offsets>
+      <x-m> -5.214 </x-m>
+      <y-m> 0.357 </y-m>
+      <z-m> 0.615</z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- EXT-LT -->
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/EXT-LT/Ext-LT.xml</path>
+    <offsets>
+      <x-m> -5.204 </x-m>
+      <y-m> 0.515 </y-m>
+      <z-m> 0.645</z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- INTERIOR LT -->
+
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/LT/LT.xml</path>
+    <offsets>
+      <x-m>-5.365 </x-m>
+      <y-m> 0.498 </y-m>
+      <z-m> 0.641 </z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+<!-- TEMP -->
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/temp/temp.xml</path>
+    <offsets>
+      <x-m>-5.535 </x-m>
+      <y-m> 0.484 </y-m>
+      <z-m> 0.638 </z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+<!-- PAI -->
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/pai/pai.xml</path>
+    <offsets>
+      <x-m>-5.620 </x-m>
+      <y-m> 0.480 </y-m>
+      <z-m> 0.640 </z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+
+<!-- ECS  -->
+
+  <model>
+    <path>Aircraft/FGR-2/Models/Instruments/Right/ECS/ECS.xml</path>
+    <offsets>
+      <x-m>-5.630 </x-m>
+      <y-m> 0.484 </y-m>
+      <z-m> 0.638 </z-m>
+      <roll-deg> 11.5 </roll-deg>
+      <pitch-deg> -90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+
+
+
+</PropertyList>
+

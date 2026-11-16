@@ -1,0 +1,165 @@
+<!-- A wrapper file for the FGR.2 3D model REMBRANDT VERSION -->
+
+<PropertyList>
+
+ <path>FGR2.ac</path>
+
+ <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>30000</max-m>
+    </animation>
+
+  
+
+
+    <!-- Transparent Surfaces for Rembrandt rendering -->
+
+  
+  
+  
+   <effect>
+        <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+       
+	<object-name>HUDGlass</object-name>
+  
+    </effect> 
+
+
+ <!--  <effect>
+    <inherits-from>Aircraft/FGR-2/Models/Effects/reflect-uber</inherits-from>
+   <object-name>PortOuterGearDoorOutside</object-name>
+  <object-name>StarOuterGearDoorOutside</object-name>
+  <object-name>PortInnerGearDoor</object-name>
+  <object-name>StarInnerGearDoor</object-name>
+  <object-name>RearNoseDoor</object-name>
+  <object-name>FrontNoseDoor</object-name>
+   <object-name>PortWingBottom</object-name>
+  <object-name>PortWingTipBottom</object-name>
+  <object-name>PortFlapBottom</object-name>
+  <object-name>PortAileronBottom</object-name>
+  <object-name>PortGearDoor</object-name>
+  <object-name>PortOuterGearDoorOutside</object-name>
+  <object-name>PortSpeedBrakeBottom</object-name>
+  <object-name>PortInnerSlatBottom</object-name>
+  <object-name>PortOuterSlatBottom</object-name>
+   <object-name>StarWingBottom</object-name>
+  <object-name>StarWingTipBottom</object-name>
+  <object-name>StarFlapBottom</object-name>
+  <object-name>StarAileronBottom</object-name>
+  <object-name>StarGearDoor</object-name>
+  <object-name>StarOuterGearDoorOutside</object-name>
+  <object-name>StarSpeedBrakeBottom</object-name>
+  <object-name>StarInnerSlatBottom</object-name>
+  <object-name>StarOuterSlatBottom</object-name>
+  <object-name>StarWingTop</object-name>
+  <object-name>StarWingTipTop</object-name>
+  <object-name>StarFlapTop</object-name>
+  <object-name>StarAileronTop</object-name>
+  <object-name>StarOuterSlatTop</object-name>
+  <object-name>StarInnerSlatTop</object-name>
+  <object-name>StarSpoilerTop</object-name>
+  <object-name>PortWingTop</object-name>
+  <object-name>PortWingTipTop</object-name>
+  <object-name>PortFlapTop</object-name>
+  <object-name>PortAileronTop</object-name>
+  <object-name>PortOuterSlatTop</object-name>
+  <object-name>PortInnerSlatTop</object-name>
+  <object-name>PortSpoilerTop</object-name>
+   <object-name>StarVertStab</object-name>
+  <object-name>StarRudder</object-name>
+  <object-name>StarElevator</object-name>
+   <object-name>PortVertStab</object-name>
+  <object-name>PortRudder</object-name>
+  <object-name>PortElevator</object-name>
+  <object-name>VertStabRoot</object-name>
+  <object-name>PortPeriscope</object-name>
+  <object-name>RearFuselage</object-name>
+  <object-name>FrontCanopyFrame</object-name>
+  <object-name>RearCanopyFrame</object-name>
+  <object-name>FrontFuselageTop</object-name>
+   <object-name>MidFuselageTop</object-name>
+  <object-name>PortBellyCoolingDoor</object-name>
+  <object-name>StarBellyCoolingDoor</object-name>
+   <object-name>FrontFuselageSides</object-name>
+  <object-name>OuterFuelDoor</object-name>
+   <object-name>MidFuselageSides</object-name>
+  <object-name>PortCoolingDoorOutside</object-name>
+  <object-name>StarCoolingDoorOutside</object-name>
+  </effect>
+
+-->
+
+<!-- ALS  mirror reflecton -->
+
+<effect>
+    <inherits-from>Aircraft/FGR-2/Models/Effects/mirror/mirror</inherits-from>
+	<object-name>retro.001</object-name>
+	<object-name>retro</object-name>
+	<object-name>retro.002</object-name>
+	<object-name>retro.004</object-name>
+	<object-name>retro.005</object-name>
+
+  </effect>
+
+
+  <effect>
+      <inherits-from>Aircraft/FGR-2/Models/Effects/glassout</inherits-from>
+       <object-name>FrontCanopyGlass</object-name>
+       <object-name>RearCanopyGlass</object-name>
+       <object-name>CenterWindscreenGlass</object-name>
+       <object-name>WindscreenGlass</object-name>
+	    <object-name>StarSideGlass</object-name>
+    </effect>
+
+	<animation>
+  <type>select</type>
+ <object-name>FrontCanopyGlass</object-name>
+       <object-name>RearCanopyGlass</object-name>
+       <object-name>CenterWindscreenGlass</object-name>
+       <object-name>WindscreenGlass</object-name>
+	    <object-name>StarSideGlass</object-name>
+  <condition>
+
+   <equals>
+    <property>sim/current-view/internal</property>
+    <value>false</value>
+   </equals>
+
+  </condition>
+ </animation>
+
+
+ <effect>
+      <inherits-from>Effects/glass</inherits-from>
+       <object-name>FrontCanopyGlassin</object-name>
+       <object-name>RearCanopyGlassin</object-name>
+       <object-name>CenterWindscreenGlassin</object-name>
+       <object-name>WindscreenGlassin</object-name>
+	    <object-name>StarSideGlassin</object-name>
+    </effect>
+
+	 <animation>
+  <type>select</type>
+        <object-name>FrontCanopyGlassin</object-name>
+       <object-name>RearCanopyGlassin</object-name>
+       <object-name>CenterWindscreenGlassin</object-name>
+       <object-name>WindscreenGlassin</object-name>
+	    <object-name>StarSideGlassin</object-name>
+  <condition>
+
+   <equals>
+    <property>sim/current-view/internal</property>
+    <value>true</value>
+   </equals>
+
+  </condition>
+ </animation>
+
+
+
+
+</PropertyList>
