@@ -1,8 +1,10 @@
 # Open Source FlightGear Archive: FGR-2 - FGUK
 
+NOTICE: THE ORIGINAL FGUK RELEASE LACKED LICENSE TEXT. I HAVE ADDED THE LICENSE TEXT (GNU GPL v2) FOR COMPLIANCE WITH THE LICENSE TERMS !!!
+
 > **Archival Date:** 15.11.2026
 
-> **Source Origin:** Recovered from https://sites.google.com/view/fgukhangar/flightgear-uk-home-page/hangar/rotary-wing
+> **Source Origin:** Recovered from https://sites.google.com/view/fgukhangar/flightgear-uk-home-page/hangar/jets
 
 ---
 
